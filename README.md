@@ -1,3 +1,4 @@
 # slucter-invitation-kit
 
-- SILAHKAN PAKAI GAYYSSS SEMOGA BERMANPAT ^_^  [Slucter_Invitation_Kit]([https://bit.ly/slucter-invkit]).
+- SILAHKAN PAKAI GAYYSSS SEMOGA BERMANPAT ^_^
+- <a href="https://bit.ly/slucter-invkit">DEMO</a>

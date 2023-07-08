@@ -1,3 +1,3 @@
 # slucter-invitation-kit
 
-- SILAHKAN PAKAI GAYYSSS SEMOGA BERMANPAT ^_^  [Slucter Invitation Kit]([https://nodejs.org/en/](https://bit.ly/slucter-invkit)https://bit.ly/slucter-invkit).
+- SILAHKAN PAKAI GAYYSSS SEMOGA BERMANPAT ^_^  [Slucter_Invitation_Kit]([https://nodejs.org/en/](https://bit.ly/slucter-invkit)https://bit.ly/slucter-invkit).

@@ -81,7 +81,7 @@ $(document).ready(function() {
     }
     const wa = (data) => {
         const a = document.createElement('a')
-        a.setAttribute('href', `https://wa.me/?text=${data.template}`)
+        a.setAttribute('href', `https://wa.me/?text=${encodeURIComponent(data.template)}`)
         a.setAttribute('target', '_blank')
         a.click()
     }

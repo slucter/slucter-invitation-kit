@@ -66,6 +66,7 @@ $(document).ready(function() {
         const newItems = [...history, ...res]
         localStorage.setItem('tamuUndangan', JSON.stringify(newItems))
         checkHistory ()
+        $("html, body").animate({ scrollTop: document.body.scrollHeight }, "slow");
     }
     
     const findItem = (id) => {
@@ -107,12 +108,18 @@ $(document).ready(function() {
         });
     }
 
+    function clearUndangan () {
+        localStorage.clear()
+        location.reload(true)
+    }
+
 
     $('form').on('submit', submit)
     $('#generatePengantar0').on('click', generatePengantar)
     $('#generatePengantar1').on('click', generatePengantar)
     $('#generatePengantar2').on('click', generatePengantar)
     $('#generatePengantar3').on('click', generatePengantar)
+    $('#clearBtn').on('click', clearUndangan)
 
     $('tbody').on('click', '#btnCopy', action)
     $('tbody').on('click', '#btnTemplate', action)
